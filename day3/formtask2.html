@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Form Solution</h1>
+    <form action="/submit" method="post">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name"placeholder="Enter your full name" required>
+        <br><br>
+        <label for="Email">Email</label><br>
+        <input type="text" id="Email" Email="Email" placeholder="Enter your Email" required>
+        <br><br>
+        <label for="password">Password</label><br>
+        <input type="text" id="password" password="password" placeholder="Enter your Password" required>
+        <br><br>
+        <h2>Gender</h2>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="Female" required>
+        <label for="Female">Female</label><br>
+        <input type="radio" id="others" name="gender" value="others" required>
+        <label for="others">Others</label><br>
+        <h2>Country:</h2>
+        <select id="Country" name="Country" required>
+            <option value="">--Select Country--</option>
+            <option value="us">United states</option>
+            <option value="uk">United kindom</option>
+            <option value="tn">Tamil Nadu</option>
+        </select><br><br>
+        <button type>Submit</button>
+    </form>
+</body>
+</html>
